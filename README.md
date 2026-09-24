@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════ BANNIÈRE ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3d2e,100:00ff9f&height=220&section=header&text=Alexis%20Andries&fontSize=58&fontColor=e6fff5&fontAlignY=38&desc=MortalDemon3%20%E2%80%A2%20SysAdmin%20%26%20R%C3%A9seau%20en%20devenir&descSize=18&descAlignY=58&animation=fadeIn" alt="bannière" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3d2e,100:00ff9f&height=220&section=header&text=Alexis%20Andries&fontSize=58&fontColor=e6fff5&fontAlignY=38&desc=MortalDemon3%20%E2%80%A2%20SysAdmin%20et%20R%C3%A9seau%20en%20devenir&descSize=18&descAlignY=58&animation=fadeIn" alt="bannière" width="100%"/>
 </p>
 
 <p align="center">
