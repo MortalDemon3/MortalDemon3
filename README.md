@@ -35,7 +35,7 @@ fun_fact:   Je fais tourner un homelab complet… et je plonge en sidemount 🤿
 ## 🧰 `$ ls ~/stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,debian,ubuntu,bash,docker,git,gitlab,githubactions,cloudflare,nginx,raspberrypi&theme=dark&perline=11" alt="infra"/>
+  <img src="https://skillicons.dev/icons?i=linux,debian,ubuntu,bash,docker,git,githubactions,cloudflare,nginx,raspberrypi&theme=dark&perline=11" alt="infra"/>
   <br/><br/>
   <img src="https://skillicons.dev/icons?i=python,flask,fastapi,php,mysql,html,css,js,ts,react,supabase&theme=dark&perline=11" alt="dev"/>
 </p>
@@ -66,8 +66,11 @@ fun_fact:   Je fais tourner un homelab complet… et je plonge en sidemount 🤿
     ▀█▄   ▀▀▀   ▄█▀       DNS         : AdGuard Home (primaire + secondaire sur RPi)
       ▀▀▀▀▀▀▀▀▀▀▀         Stockage    : TrueNAS SCALE • NFS • backups vzdump
                           Sécurité    : CrowdSec • fail2ban • honeypot Cowrie • Trivy
-                          Monitoring  : Uptime Kuma • bot Discord maison • alertes PAM
-                          Git         : GitLab CE auto-hébergé
+                          Routage     : routeur Linux dédié • pare-feu
+                          Monitoring  : Uptime Kuma • Healthchecks.io • veilleur maison
+                                        bot Discord • alertes PAM
+                          Domotique   : Home Assistant (dashboards, automatisations)
+                          Jeux        : serveur Minecraft Java + Bedrock (Crafty)
                           Exposition  : Nginx Proxy Manager + Cloudflare
 ```
 
@@ -77,7 +80,7 @@ fun_fact:   Je fais tourner un homelab complet… et je plonge en sidemount 🤿
 
 | Projet | Description | Stack |
 |:--|:--|:--|
-| 🕵️ **OSINTBox** | Boîte à outils OSINT web (générateur QR, chat chiffré), CI/CD GitHub Actions — [osintbox.andries.icu](https://osintbox.andries.icu) | ![](https://img.shields.io/badge/-Flask-000?style=flat-square&logo=flask) ![](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| 🕵️ **OSINTBox** | Boîte à outils OSINT web (géolocalisation et scan de ports d'une IP, générateur QR, chat chiffré), CI/CD GitHub Actions — [osintbox.andries.icu](https://osintbox.andries.icu) | ![](https://img.shields.io/badge/-Flask-000?style=flat-square&logo=flask) ![](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | 📡 **pve-monitoring** | Bot Discord de supervision Proxmox avec commandes slash (`/ban`, `/unban`) | ![](https://img.shields.io/badge/-discord.py-5865F2?style=flat-square&logo=discord&logoColor=white) ![](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
 | 🎮 **[mii-project](https://github.com/MortalDemon3/mii-project)** | Plateforme de mini-jeux multijoueurs dans le navigateur (projet BTS) | ![](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react) ![](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
 | 🏨 **[hotel-neptune](https://github.com/MortalDemon3/hotel-neptune)** | Site web de gestion d'hôtel | ![](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
